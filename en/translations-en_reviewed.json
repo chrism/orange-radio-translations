@@ -1,16 +1,16 @@
 {
   "dialog": {
     "exit": {
-      "title": "Exit",
-      "message": "Do you want to leave the service?",
+      "title": "Exit service",
+      "message": "Are you sure you want to leave Orange Radio?",
       "buttons": {
-        "cancel": "Close",
-        "validate": "Quit"
+        "cancel": "Cancel",
+        "validate": "Exit"
       }
     },
     "initError": {
       "title": "Sorry",
-      "message": "The service is unavailable for the moment. <br> Please try again later.", //Please renew your test later
+      "message": "The service is currently unavailable. <br> Please try again later.", //Please renew your test later
       "buttons": {
         "cancel": "Close"
       }
@@ -27,7 +27,7 @@
       "message": "Sorry, no content is available for the country \"{0}\".",
       "buttons": {
         "cancel": "Close",
-        "validate": "Make a new choice"
+        "validate": "Choose another"
       }
     },
     "detailError": {
@@ -57,12 +57,12 @@
     "ddMonthYYYY": "{1} {0}, {2}"
   },
   "header": {
-    "search": "Search", //Research
-    "favorites": "My favourites"
+    "search": "Search",
+    "favorites": "My favorites"
   },
   "footer": {
-    "title": "Didn't find your favorite radio?",
-    "search": "Search among our 33,000 radios from around the world" //Look among our 33,000 radios from around the world
+    "title": "Can't find your favorite radio?",
+    "search": "Search our 33,000 radios from around the world"
   },
   "no-favorite": {
     "message": "To add a favorite, select a radio, <br> and click the favorite button at the bottom right."
@@ -79,7 +79,7 @@
       "vod": "All films and documentaries"
     },
     "listened": {
-      "title": "Recently listened to on Orange Radio"
+      "title": "Recently listened on Orange Radio"
     },
     "deezer.top": {
       "title": "Top titles on Deezer",
@@ -91,10 +91,10 @@
     },
     "deezer.lyrics": {
       "title": "Listen with the lyrics on Deezer",
-      "showAll": "All lyrics" //all words
+      "showAll": "All lyrics"
     },
     "podcast.top": {
-      "title": "The most listened to podcasts on Orange Radio", //"Most listened to podcasts on Orange Radio"
+      "title": "Most listened podcasts on Orange Radio",
       "showAll": "All podcasts"
     },
     "deezer.albums": {
@@ -114,16 +114,16 @@
       "showAll": "All radios"
     },
     "deezer.playlists": {
-      "title": "The most listened to playlists on Deezer",
+      "title": "Most listened playlists on Deezer",
       "showAll": "All playlists"
     },
     "tv": {
-      "title": "Musical channels", //Musical chains
+      "title": "Music channels",
       "showAll": "All channels"
     },
     "deezer.releases": {
       "title": "New on Deezer",
-      "showAll": "All the new features" //which context?
+      "showAll": "All the new features"
     },
     "vod": {
       "title": "Films and documentaries",
@@ -141,23 +141,23 @@
       }
     },
     "radio.favorites": {
-      "title": "My favourites",
+      "title": "My favorites",
       "showAll": "All my favorites",
       "addlike": "Add a favorite"
     },
     "listened": {
-      "title": "Listened to recently"
+      "title": "Recently listened"
     },
     "radio.all": {
       "title": "Radios",
       "showAll": "Show all"
     },
     "radio.top": {
-      "title": "The selection of radios",
+      "title": "Selected radios",
       "showAll": "Show all"
     },
     "radio.popular": {
-      "title": "The most popular radios",
+      "title": "Most popular radios",
       "showAll": "Show all"
     },
     "radio.countries": {
@@ -168,19 +168,19 @@
       "title": "Radio genres"
     },
     "podcast.popular": {
-      "title": "The most popular podcasts",
+      "title": "Most popular podcasts",
       "showAll": "Show all"
     },
     "podcast.top": {
-      "title": "The selection of podcasts",
+      "title": "Selected podcasts",
       "showAll": "Show all"
     },
     "podcast.recently": {
-      "title": "The most recent podcasts",
+      "title": "Most recent podcasts",
       "showAll": "Show all"
     },
     "podcast.genres": {
-      "title": "Podcast genres" //Genres of Podcasts 
+      "title": "Podcast genres"
     }
   },
   "home-radio-all": {
@@ -191,7 +191,7 @@
       }
     },
     "radio.top": {
-      "title": "The most popular",
+      "title": "Most popular",
       "showAll": "Show all"
     },
     "radio.genres": {
@@ -204,25 +204,25 @@
       "title": "Podcasts"
     },
     "top": {
-      "title": "The selection",
+      "title": "Selected",
       "showAll": "All podcasts"
     },
     "popular": {
-      "title": "The most popular",
+      "title": "Most popular",
       "showAll": "All podcasts"
     },
     "recently": {
-      "title": "The most recent",
+      "title": "Most recent",
       "showAll": "All podcasts"
     },
     "genres": {
-      "title": "Podcast genres" //Genres of Podcasts 
+      "title": "Podcast genres"
     }
   },
   "home-favorites": {
     "breadcrumb": {
       "title": "Radios and podcasts",
-      "subtitle": "My favourites"
+      "subtitle": "My favorites"
     },
     "radio": {
       "title": "Radios",
@@ -250,8 +250,8 @@
   },
   "detail": {
     "listen": "Listen",
-    "pause": "Pause", //Break
-    "resume": "Resume", //To resume
+    "pause": "Pause",
+    "resume": "Resume",
     "addFavorite": "Add to favorites",
     "removeFavorite": "Remove from favorites",
     "episodeNone": "No episode",
@@ -263,30 +263,30 @@
   },
   "player": {
     "listen": "Listen",
-    "pause": "Pause", //Break
+    "pause": "Pause",
     "stop": "Stop",
     "notWorking": "Temporarily unavailable",
     "podcastDescription": "{0}, {1}",
-    "startOver": "Play from beginning", //Back to the the start
+    "startOver": "Play from start",
     "rewind": "-10 seconds",
     "forward": "+10 seconds",
-    "addFavorite": "Add to my favorites",
-    "removeFavorite": "Remove from my favorites",
-    "info": "More information", //informations
+    "addFavorite": "Add to favorites",
+    "removeFavorite": "Remove from favorites",
+    "info": "More information",
     "podcasts": "Podcasts",
     "showInfo": {
-      "defaultTitle": "Information unavailable", //Unavailable information
+      "defaultTitle": "Information unavailable",
       "similar": "You will surely like",
       "listen": "Listen {0}"
     }
   },
   "search": {
     "breadcrumb": {
-      "title": "Search" //Research
+      "title": "Search"
     },
-    "defaultText": "Look for your radios and podcasts",
+    "defaultText": "Find radios and podcasts",
     "noResults": "No results for ‘{0}’",
-    "defaultResults": "Start your search entry and from <br> 3 characters, proposals will be displayed.",
+    "defaultResults": "Enter a search term and after <br> 3 characters, results will be shown.",
     "radio": {
       "title": "Radios",
       "showAll": "All radios"
@@ -296,8 +296,8 @@
       "showAll": "All podcasts"
     },
     "history": {
-      "last": "The latest search", //research
-      "mostSearched": "The most sought after"
+      "last": "Recent searches",
+      "mostSearched": "Most searched for"
     }
   },
   "months": [
