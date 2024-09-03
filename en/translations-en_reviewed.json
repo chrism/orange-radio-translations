@@ -1,0 +1,343 @@
+{
+  "dialog": {
+    "exit": {
+      "title": "Exit",
+      "message": "Do you want to leave the service?",
+      "buttons": {
+        "cancel": "Close",
+        "validate": "Quit"
+      }
+    },
+    "initError": {
+      "title": "Sorry",
+      "message": "The service is unavailable for the moment. <br> Please try again later.", //Please renew your test later
+      "buttons": {
+        "cancel": "Close"
+      }
+    },
+    "categoryError": {
+      "title": "Category",
+      "message": "Sorry, this category is not available.",
+      "buttons": {
+        "cancel": "Close"
+      }
+    },
+    "filterByCountryError": {
+      "title": "Country",
+      "message": "Sorry, no content is available for the country \"{0}\".",
+      "buttons": {
+        "cancel": "Close",
+        "validate": "Make a new choice"
+      }
+    },
+    "detailError": {
+      "title": "Sorry",
+      "message": "This podcast is unavailable.",
+      "buttons": {
+        "cancel": "Close"
+      }
+    },
+    "playerError": {
+      "title": "Sorry",
+      "message": "This content is unavailable.",
+      "buttons": {
+        "cancel": "Close"
+      }
+    },
+    "no-favorite": {
+      "title": "Add a favorite",
+      "message": "To add a favorite, select a radio, <br> and click the favorite button at the bottom right.",
+      "buttons": {
+        "validate": "OK"
+      }
+    }
+  },
+  "date": {
+    "undefined": "--:--:--",
+    "ddMonthYYYY": "{1} {0}, {2}"
+  },
+  "header": {
+    "search": "Search", //Research
+    "favorites": "My favourites"
+  },
+  "footer": {
+    "title": "Didn't find your favorite radio?",
+    "search": "Search among our 33,000 radios from around the world" //Look among our 33,000 radios from around the world
+  },
+  "no-favorite": {
+    "message": "To add a favorite, select a radio, <br> and click the favorite button at the bottom right."
+  },
+  "title-filter": {
+    "radioTitle": "All radios",
+    "none": "Filter by country",
+    "remove": "Delete"
+  },
+  "home-music": {
+    "breadcrumb": {
+      "title": "Music and radio",
+      "tvChannel": "All TV channels",
+      "vod": "All films and documentaries"
+    },
+    "listened": {
+      "title": "Recently listened to on Orange Radio"
+    },
+    "deezer.top": {
+      "title": "Top titles on Deezer",
+      "showAll": "All titles"
+    },
+    "playzer.karaoke": {
+      "title": "Karaoke on Playzer",
+      "showAll": "All playlists"
+    },
+    "deezer.lyrics": {
+      "title": "Listen with the lyrics on Deezer",
+      "showAll": "All lyrics" //all words
+    },
+    "podcast.top": {
+      "title": "The most listened to podcasts on Orange Radio", //"Most listened to podcasts on Orange Radio"
+      "showAll": "All podcasts"
+    },
+    "deezer.albums": {
+      "title": "Top albums on Deezer",
+      "showAll": "All albums"
+    },
+    "playzer.clip": {
+      "title": "Selection of clips on Playzer",
+      "showAll": "All clips"
+    },
+    "deezer.artists": {
+      "title": "Top artists on Deezer",
+      "showAll": "All artists"
+    },
+    "radio.top": {
+      "title": "Top radios on Orange Radio",
+      "showAll": "All radios"
+    },
+    "deezer.playlists": {
+      "title": "The most listened to playlists on Deezer",
+      "showAll": "All playlists"
+    },
+    "tv": {
+      "title": "Musical channels", //Musical chains
+      "showAll": "All channels"
+    },
+    "deezer.releases": {
+      "title": "New on Deezer",
+      "showAll": "All the new features" //which context?
+    },
+    "vod": {
+      "title": "Films and documentaries",
+      "showAll": "All movies"
+    }
+  },
+  "home-radio": {
+    "breadcrumb": {
+      "title": {
+        "default": "Radios and podcasts",
+        "radio": "Radios",
+        "countries": "Radios",
+        "country": "Radios",
+        "square": "Podcasts"
+      }
+    },
+    "radio.favorites": {
+      "title": "My favourites",
+      "showAll": "All my favorites",
+      "addlike": "Add a favorite"
+    },
+    "listened": {
+      "title": "Listened to recently"
+    },
+    "radio.all": {
+      "title": "Radios",
+      "showAll": "Show all"
+    },
+    "radio.top": {
+      "title": "The selection of radios",
+      "showAll": "Show all"
+    },
+    "radio.popular": {
+      "title": "The most popular radios",
+      "showAll": "Show all"
+    },
+    "radio.countries": {
+      "title": "Radios by country",
+      "showAll": "All countries"
+    },
+    "radio.genres": {
+      "title": "Radio genres"
+    },
+    "podcast.popular": {
+      "title": "The most popular podcasts",
+      "showAll": "Show all"
+    },
+    "podcast.top": {
+      "title": "The selection of podcasts",
+      "showAll": "Show all"
+    },
+    "podcast.recently": {
+      "title": "The most recent podcasts",
+      "showAll": "Show all"
+    },
+    "podcast.genres": {
+      "title": "Podcast genres" //Genres of Podcasts 
+    }
+  },
+  "home-radio-all": {
+    "breadcrumb": {
+      "title": {
+        "default": "Radios and podcasts",
+        "radio": "Radios"
+      }
+    },
+    "radio.top": {
+      "title": "The most popular",
+      "showAll": "Show all"
+    },
+    "radio.genres": {
+      "title": "Radio genres",
+      "showAll": "Show all"
+    }
+  },
+  "home-podcast": {
+    "breadcrumb": {
+      "title": "Podcasts"
+    },
+    "top": {
+      "title": "The selection",
+      "showAll": "All podcasts"
+    },
+    "popular": {
+      "title": "The most popular",
+      "showAll": "All podcasts"
+    },
+    "recently": {
+      "title": "The most recent",
+      "showAll": "All podcasts"
+    },
+    "genres": {
+      "title": "Podcast genres" //Genres of Podcasts 
+    }
+  },
+  "home-favorites": {
+    "breadcrumb": {
+      "title": "Radios and podcasts",
+      "subtitle": "My favourites"
+    },
+    "radio": {
+      "title": "Radios",
+      "showAll": "All radios"
+    },
+    "podcast": {
+      "title": "Podcasts",
+      "showAll": "All podcasts"
+    }
+  },
+  "countries": {
+    "breadcrumb": {
+      "title": "Radios",
+      "subtitle": "All countries"
+    }
+  },
+  "filter-by-countries": {
+    "filter": "Filter by country",
+    "country": "All countries",
+    "OC": "Oceania"
+  },
+  "radiosByCountry": {
+    "all": "All",
+    "selection": "Selection"
+  },
+  "detail": {
+    "listen": "Listen",
+    "pause": "Pause", //Break
+    "resume": "Resume", //To resume
+    "addFavorite": "Add to favorites",
+    "removeFavorite": "Remove from favorites",
+    "episodeNone": "No episode",
+    "episodesNb": "Episodes ({0})",
+    "episodesMaxReached": "Episodes ({0}+)",
+    "durationHMM": "{0} H {1} min",
+    "durationMM": "{0} min",
+    "durationH": "{0} H"
+  },
+  "player": {
+    "listen": "Listen",
+    "pause": "Pause", //Break
+    "stop": "Stop",
+    "notWorking": "Temporarily unavailable",
+    "podcastDescription": "{0}, {1}",
+    "startOver": "Play from beginning", //Back to the the start
+    "rewind": "-10 seconds",
+    "forward": "+10 seconds",
+    "addFavorite": "Add to my favorites",
+    "removeFavorite": "Remove from my favorites",
+    "info": "More information", //informations
+    "podcasts": "Podcasts",
+    "showInfo": {
+      "defaultTitle": "Information unavailable", //Unavailable information
+      "similar": "You will surely like",
+      "listen": "Listen {0}"
+    }
+  },
+  "search": {
+    "breadcrumb": {
+      "title": "Search" //Research
+    },
+    "defaultText": "Look for your radios and podcasts",
+    "noResults": "No results for ‘{0}’",
+    "defaultResults": "Start your search entry and from <br> 3 characters, proposals will be displayed.",
+    "radio": {
+      "title": "Radios",
+      "showAll": "All radios"
+    },
+    "podcast": {
+      "title": "Podcasts",
+      "showAll": "All podcasts"
+    },
+    "history": {
+      "last": "The latest search", //research
+      "mostSearched": "The most sought after"
+    }
+  },
+  "months": [
+    "Jan.",
+    "Feb.",
+    "Mar.",
+    "Apr.",
+    "May",
+    "June",
+    "July",
+    "Aug.",
+    "Sept.",
+    "Oct.",
+    "Nov.",
+    "Dec."
+  ],
+  "countriesNames": {
+    "dz": "Algeria",
+    "de": "Germany",
+    "be": "Belgium",
+    "cm": "Cameroon",
+    "cd": "DR Congo",
+    "ci": "Ivory Coast",
+    "bg": "Bulgaria",
+    "cn": "China",
+    "es": "Spain",
+    "fr": "France",
+    "gn": "Guinea",
+    "it": "Italy",
+    "mg": "Madagascar",
+    "ma": "Morocco",
+    "nl": "Netherlands",
+    "pl": "Poland",
+    "pt": "Portugal",
+    "ro": "Romania",
+    "gb": "United Kingdom",
+    "ru": "Russia",
+    "tr": "Turkey",
+    "sn": "Senegal",
+    "ch": "Switzerland",
+    "tn": "Tunisia"
+  }
+}
